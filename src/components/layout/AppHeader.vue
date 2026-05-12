@@ -3,7 +3,7 @@
     <div class="container flex items-center justify-center py-4 lg:justify-between lg:py-5">
       <div class="flex flex-1 items-center justify-center lg:justify-between">
         <nav class="flex items-center gap-0">
-          <NavLink href="https://www.linkedin.com/in/alexey-matsko-867862216/" external>
+          <NavLink href="https://www.linkedin.com/in/aleksei-matsko-867862216/" external>
             {{ $t('nav.linkedin') }}
           </NavLink>
           <NavLink href="https://www.behance.net/smogrus64cf02" external>{{ $t('nav.behance') }}</NavLink>

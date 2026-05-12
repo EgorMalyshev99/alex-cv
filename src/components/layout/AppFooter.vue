@@ -18,7 +18,7 @@
 
       <div class="flex flex-wrap items-center justify-center gap-3 lg:gap-6">
         <Button variant="ghost" as-child>
-          <a href="https://www.linkedin.com/in/alexey-matsko-867862216/" target="_blank">
+          <a href="https://www.linkedin.com/in/aleksei-matsko-867862216/" target="_blank">
             {{ $t('footerCta.linkedin') }}
           </a>
         </Button>
