@@ -1,7 +1,7 @@
 <template>
   <header class="top-0 z-50 w-full" :class="isHome ? 'absolute inset-x-0' : 'static'">
     <div class="container flex items-center justify-center py-4 lg:justify-between lg:py-5">
-      <div class="flex flex-1 items-center justify-between">
+      <div class="flex flex-1 items-center justify-center lg:justify-between">
         <nav class="flex items-center gap-0">
           <NavLink href="https://www.linkedin.com/in/alexey-matsko-867862216/" external>
             {{ $t('nav.linkedin') }}

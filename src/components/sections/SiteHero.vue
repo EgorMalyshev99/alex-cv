@@ -5,7 +5,7 @@
     <HeroGlowSpheres />
 
     <div class="relative z-10 mx-auto flex flex-col gap-8 lg:gap-10">
-      <div class="flex flex-col items-center gap-4 lg:gap-6">
+      <div class="flex flex-col gap-4 lg:items-center lg:gap-6">
         <div
           class="text-ink-dim flex-wrap items-center justify-center gap-3 text-center font-sans text-xl leading-10
             text-pretty lg:flex lg:text-2xl lg:leading-tight"
