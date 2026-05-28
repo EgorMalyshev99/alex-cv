@@ -60,10 +60,10 @@
                   </div>
                 </div>
               </div>
-              <div class="flex w-full flex-col gap-3 lg:w-75">
+              <!-- <div class="flex w-full flex-col gap-3 lg:w-75">
                 <p class="text-ink-dim text-2xl font-bold lg:text-[26px]">{{ $t('case.ndaLabel') }}</p>
                 <p class="text-ink-dim text-lg">{{ $t('brands.nda') }}</p>
-              </div>
+              </div> -->
             </div>
           </div>
 

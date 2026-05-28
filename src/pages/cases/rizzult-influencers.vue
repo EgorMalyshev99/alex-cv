@@ -59,10 +59,10 @@
                   </div>
                 </div>
               </div>
-              <div class="flex w-full flex-col gap-3 lg:w-75">
+              <!-- <div class="flex w-full flex-col gap-3 lg:w-75">
                 <p class="text-ink-dim text-2xl font-bold lg:text-[26px]">{{ $t('case.ndaLabel') }}</p>
                 <p class="text-ink-dim text-lg">{{ $t('influencers.nda') }}</p>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -78,7 +78,7 @@
                 <img
                   :src="`/influencers-case-${i}.png`"
                   :alt="$t(`influencers.flow${i}`)"
-                  class="h-119 w-full rounded-lg object-cover"
+                  class="h-auto w-full"
                   loading="lazy"
                   decoding="async"
                 />

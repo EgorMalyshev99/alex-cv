@@ -29,7 +29,7 @@
         </RouterLink>
       </div>
     </div>
-    <p class="mt-auto hidden text-center text-xs italic lg:block">{{ t('case.nda') }}</p>
+    <!-- <p class="mt-auto hidden text-center text-xs italic lg:block">{{ t('case.nda') }}</p> -->
   </article>
 </template>
 
