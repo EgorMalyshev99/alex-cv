@@ -1,0 +1,35 @@
+<template>
+  <section class="container flex flex-col items-center gap-6 py-24 text-center lg:py-32">
+    <p class="text-ink-dim font-sans text-6xl font-bold lg:text-8xl">
+      {{ $t('notFound.code') }}
+    </p>
+    <h1 class="text-ink-dim font-sans text-2xl font-semibold lg:text-3xl">
+      {{ $t('notFound.title') }}
+    </h1>
+    <p class="max-w-lg text-base text-neutral-600">
+      {{ $t('notFound.body') }}
+    </p>
+    <NuxtLink
+      :to="localePath('/')"
+      class="bg-brand font-display hover:bg-brand-hover inline-flex items-center gap-2 rounded-xl px-6 py-3 text-base font-semibold text-white transition-colors"
+    >
+      {{ $t('notFound.cta') }}
+    </NuxtLink>
+  </section>
+</template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+})
+
+const localePath = useLocalePath()
+const { t } = useI18n()
+
+useSeoMeta({
+  title: () => t('notFound.title'),
+  robots: 'noindex, nofollow',
+})
+
+setResponseStatus(404)
+</script>
