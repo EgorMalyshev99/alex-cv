@@ -56,7 +56,7 @@
         </div>
 
         <h1 class="text-ink-dim max-w-253 text-center font-sans text-4xl leading-tight font-bold lg:text-6xl">
-          {{ $t('hero.titleLine1') }} <br class="hidden lg:block" />
+          {{ $t('hero.titleLine1') }} <br aria-hidden="true" class="hidden lg:block" />
           {{ $t('hero.titleLine2') }}
         </h1>
       </div>
