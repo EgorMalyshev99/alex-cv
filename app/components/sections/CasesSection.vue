@@ -25,8 +25,6 @@
             :src="item.image"
             :alt="$t(item.title)"
             class="size-full rounded-xl object-cover lg:rounded-l-none lg:rounded-r-xl"
-            width="800"
-            height="600"
           />
         </NuxtLink>
       </article>
