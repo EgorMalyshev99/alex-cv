@@ -1,30 +1,75 @@
-# Alex CV
+# Nuxt Minimal Starter
 
-Моя реализация проекта (резюме) для знакомого дизайнера.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-[Дизайн в Figma](https://www.figma.com/design/ohcDLK1DN5KSWw8ZMe7Kbx/%D0%9C%D0%BE%D0%B9-%D0%9B%D0%B5%D0%BD%D0%B4%D0%B8%D0%BD%D0%B3?node-id=0-1&p=f&t=hqaupu0nepf34Zez-0)
+## Setup
 
-## Технологии
+Make sure to install dependencies:
 
-- Vue 3
-- Vite 8
-- TypeScript
-- Vue Router v5 (file-based routing)
-- Tailwind CSS v4
-- pnpm
+```bash
+# npm
+npm install
 
-## Запуск проекта
-
-```sh
+# pnpm
 pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
 pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-## Полезные команды
+## Production
 
-```sh
-pnpm build    # type-check + production build
-pnpm preview  # локальный просмотр production-сборки
-pnpm lint     # oxlint -> eslint
-pnpm format   # prettier для src/
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -1,10 +1,24 @@
-.idea
-.claude
-.obsidian
-.env
-.eslintcache
-node_modules
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
 dist
-typed-router.d.ts
-.gitnexus
-.vscode/
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
